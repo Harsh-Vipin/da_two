@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <div class="header">
+        <img  id= "img1" src="logo.png" height="70" weight="70" alt="logo">
+        <img id="img2" src="gravitas-final.png" height="100" weight="100" alt="gravi">
+    </div>
+
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Registration</h1>
+            <div class="input-control">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text" placeholder="enter your vit regno">
+                
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text" placeholder="enter your vit email">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="zip">Zip code</label>
+                <input id="zip" name="zip" type="number" placeholder="Enter your zipcode">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="phone">Mobile number</label>
+                <input id="phone" name="phone" type="number" placeholder="Enter your mobile number">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password" placeholder="Enter your password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2">Password again</label>
+                <input id="password2"name="password2" type="password" placeholder="Confirm your password" >
+                <div class="error"></div>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
